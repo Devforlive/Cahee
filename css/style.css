@@ -507,7 +507,7 @@ h1{
 .slide-5{
 	width: 100%;
 	min-height: 500px;
-	background: #fff url(../img/bg.jpeg) no-repeat center top;
+	background: #fff url(..//img/bg.jpg) no-repeat center top;
 }
 
 .slide-5__cnt{
@@ -704,7 +704,7 @@ h1{
 .slide-7{
 	width: 100%;
 	min-height: 866px;
-	background: url(../img/slide-7back.jpeg) center center no-repeat;
+	background: url(../img/nature.jpg) center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -1192,7 +1192,7 @@ footer a{
 }
 
 .slide-5{
-	background: #fff url(../img/bg.jpeg) no-repeat right top;
+	background: #fff url(../img/bg.jpg) no-repeat right top;
 }
 
 .slide-5__cnt h3{
