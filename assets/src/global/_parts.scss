@@ -1,0 +1,8 @@
+.logo {
+	max-width: 127px;
+	max-height: 52px;
+}
+//flat button
+.flat-btn {
+	@include btn($color-1);
+}

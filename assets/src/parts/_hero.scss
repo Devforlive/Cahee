@@ -1,0 +1,9 @@
+.hero {		
+	&__info {  // задали элементу блока hero 4 колонки
+		@include flex-col(4);
+	}
+	&__title {
+		font-size: rem(60);
+		font-weight: 800;
+	}
+}

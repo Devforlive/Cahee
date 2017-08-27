@@ -1,0 +1,29 @@
+.menu {
+	/* @extend .clearfix; */
+	@include flex(); //include mixin flex
+	justify-content: flex-end;
+	&__item {
+		//float: right;
+		padding: 0 15px;
+		&--active {
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			top: -9px;
+			left: 15px;
+			//width: 70%; fallback для calc
+			width: calc(100% - 30px); /* отними -30рх */
+			height: 3px;
+			background-color: $color-1;
+		}	
+		}
+	}
+	&__link {
+		color: $main-color;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 25px;
+		text-transform: uppercase;
+	}
+}

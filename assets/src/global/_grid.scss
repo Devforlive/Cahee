@@ -1,0 +1,16 @@
+.row {
+	max-width: 1200px;
+	margin: 0 auto;
+	@include flex();
+	//flex-flow: row wrap; /* 2 flex together */
+	/* clearfix(after) родителю */
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+
+
+
